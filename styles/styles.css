@@ -1,0 +1,41 @@
+ul  {
+    border: 1px solid #555;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    height: 41px;
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+  }
+
+
+  li a {
+    font: 13x arial, sans-serif;
+    color: #5f6368;
+    padding: 40px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 109px;
+
+    width: 272px;
+  }
