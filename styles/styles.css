@@ -1,41 +1,118 @@
-ul  {
-    border: 1px solid #555;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    position: fixed;
-    bottom: 0;
-    height: 41px;
-    width: 100%;
+
+
+
+
+
+
+
+
+.header-frame {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-body {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   /* Makes all values inline style
+  
+  /*
+  font-family: Arial, sans-serif;
+  font: 13x arial, sans-serif;
+  
+  margin: 0;
+  position: fixed;
+  top: 0;
+  color: #5f6368;
+  padding: 0 0 0 0;
+  text-align: center;
+  */
+}
+
+
+img.header-body {
+  height: 2px;
+
+
+}
+
+
+.center {
+  margin: auto;
+}
+
+  /* Design for buttons below the search bar */
+  .buttons-below-search {
+    background-color: #f2f2f2;
+ 
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+  }
+
+
+  .app-icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
   }
   
-  li {
-    display: inline;
+  .sign-button {
+
+
   }
 
-
-  li a {
-    font: 13x arial, sans-serif;
-    color: #5f6368;
-    padding: 40px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    text-decoration: underline;
-  }
-
-  .active {
-    background-color: #4CAF50;
-    color: white;
-  }
-
-
-  img {
+  img.google-logo {
     display: block;
     margin: 0 auto;
     padding-top: 109px;
-
     width: 272px;
   }
+
+
+.search-box-border {
+    border: 1px solid #dfe1e5;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    height: 25px;
+    width: 560px;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.search-box {
+
+}
+
+.search-btn {
+  color: #9AA0A6;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+.footer  {
+  border: 1px solid #dfe1e5;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  height: 41px;
+  width: 100%;
+  line-height: 40px;
+}
