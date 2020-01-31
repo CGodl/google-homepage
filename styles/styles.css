@@ -1,43 +1,58 @@
-
-
-
-
-
-
-
-
 .header-frame {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.header-body {
+.header-body ul li {
+  list-style: none;
   display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-   /* Makes all values inline style
+  padding-left: 0px;
+  padding-right: 10px;
   
-  /*
+}
+
+.header-body a {
+  text-decoration: none;
   font-family: Arial, sans-serif;
-  font: 13x arial, sans-serif;
-  
-  margin: 0;
-  position: fixed;
-  top: 0;
-  color: #5f6368;
-  padding: 0 0 0 0;
-  text-align: center;
-  */
+  font: 13px arial, sans-serif;
+  color: #000000;
 }
 
 
-img.header-body {
-  height: 2px;
 
+
+
+
+.header-right {
+  float: right;
+  padding-right: 10px;
 
 }
+
+.header-right img {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+}
+
+.sign-in-button{
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  background: #4387fd;
+  width: 69px;
+  height: 30px;
+}
+
+.sign-in-button a{
+  font: 13px arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
 
 
 .center {
@@ -47,7 +62,6 @@ img.header-body {
   /* Design for buttons below the search bar */
   .buttons-below-search {
     background-color: #f2f2f2;
- 
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
@@ -59,24 +73,15 @@ img.header-body {
     line-height: 27px;
     min-width: 54px;
     text-align: center;
-  }
-
-
-  .app-icon {
-    height: 15px;
-    width: 15px;
-    vertical-align: middle;
-  }
-  
-  .sign-button {
-
-
+    margin-top: 50px;
+    margin-left: 10px;
   }
 
   img.google-logo {
     display: block;
     margin: 0 auto;
     padding-top: 109px;
+    margin-top: 94px;
     width: 272px;
   }
 
@@ -85,34 +90,65 @@ img.header-body {
     border: 1px solid #dfe1e5;
     display: block;
     position: relative;
+    margin-top: 15px;
     top: 50%;
     left: 30%;
-    height: 25px;
+    height: 30px;
     width: 560px;
     border-radius: 40px;
     padding: 5px;
 }
 
-.search-box {
+.search-box input{
+  border: none;
+  padding: 8px;
+  width: 400px;
+
 
 }
 
-.search-btn {
+
+.search-btn img {
   color: #9AA0A6;
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
   float: left;
+  margin-top: 3px;
+  margin-left: 4px;
 }
 
-.footer  {
-  border: 1px solid #dfe1e5;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
-  position: fixed;
+.microphone-btn img {
+  height: 30px;
+  width: 29px;
+  float: right;
+  margin-right: 2px;
+}
+
+
+.footer-frame {
+  position: absolute;
   bottom: 0;
-  height: 41px;
   width: 100%;
-  line-height: 40px;
+  
+  border: 1px solid #dfe1e5;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  height: 20px;
+  line-height: 15px;
+  padding-bottom: 20px;
+}
+
+.footer-frame ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+  padding-right: 10px;
+ 
+}
+
+
+.footer-frame a {
+  text-decoration: none;
+  color: #5f6368;
+  font-family: 12px, arial,sans-serif;
 }
