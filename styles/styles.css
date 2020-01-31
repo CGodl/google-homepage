@@ -59,8 +59,15 @@
   margin: auto;
 }
 
+.button-frame {
+  margin-left: 110px;
+
+
+} 
+
+
   /* Design for buttons below the search bar */
-  .buttons-below-search {
+.buttons-below-search {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
