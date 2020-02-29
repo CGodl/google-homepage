@@ -6,6 +6,8 @@ The purpose of this project is to understand web development and the relationshi
 
 The project is comprised of:
 
-index.html - HTML code used
-styles - Folder containing the CSS file for the project
-images - Images used in the home page.
+index.html - HTML code used.
+
+styles - Folder containing the CSS file for the project.
+
+images - Folder containing images used in the home page.
