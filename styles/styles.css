@@ -7,8 +7,7 @@
 .header-body ul li {
   list-style: none;
   display: inline;
-  padding-left: 0px;
-  padding-right: 10px;
+  padding-right: 13px;
   
 }
 
@@ -19,20 +18,20 @@
   color: #000000;
 }
 
-
-
-
-
+.header-left {
+  position: absolute;
+  left: 10px;
+}
 
 .header-right {
-  float: right;
-  padding-right: 10px;
+  position: absolute;
+  right: 37px;
 
 }
 
 .header-right img {
-  height: 25px;
-  width: 25px;
+  height: 26px;
+  width: 26px;
   vertical-align: middle;
 }
 
@@ -92,28 +91,30 @@
     width: 272px;
   }
 
-
+/* The border of the main search box */
 .search-box-border {
     border: 1px solid #dfe1e5;
     display: block;
     position: relative;
     margin-top: 15px;
+    margin-left: 18px;
     top: 50%;
     left: 30%;
-    height: 30px;
-    width: 560px;
+    height: 34px;
+    width: 550px;
     border-radius: 40px;
     padding: 5px;
 }
 
 .search-box input{
-  border: none;
-  padding: 8px;
+  border: transparent;
+  padding: 4px;
   width: 400px;
+  height: 27px;
+  outline-width: 0; /* Removes blue highlight on border */
 
 
 }
-
 
 .search-btn img {
   color: #9AA0A6;
@@ -133,8 +134,8 @@
 
 
 .footer-frame {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
   
   border: 1px solid #dfe1e5;
