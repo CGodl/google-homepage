@@ -1,3 +1,4 @@
+
 .header-frame {
   position: fixed;
   top: 0;
@@ -14,7 +15,7 @@
 .header-body a {
   text-decoration: none;
   font-family: Arial, sans-serif;
-  font: 13px arial, sans-serif;
+  font: 13px;
   color: #000000;
 }
 
@@ -134,29 +135,30 @@
 
 
 .footer-frame {
+  right: 0px;
   position: fixed;
   bottom: 0px;
   width: 100%;
-  
   border: 1px solid #dfe1e5;
   background-color: #f1f1f1;
   list-style-type: none;
   height: 20px;
-  line-height: 15px;
+  line-height: 7px;
   padding-bottom: 20px;
 }
 
 .footer-frame ul li {
   list-style: none;
   display: inline;
-  padding-left: 0px;
-  padding-right: 10px;
- 
+  
+  padding-right: 18px;
+
 }
 
-
-.footer-frame a {
+.footer-body a {
   text-decoration: none;
   color: #5f6368;
-  font-family: 12px, arial,sans-serif;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  
 }
